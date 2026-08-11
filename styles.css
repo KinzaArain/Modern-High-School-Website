@@ -1,4 +1,37 @@
 /* ==========================================
+   GLOBAL ZOOM & RESPONSIVE BASE SCALE
+   ========================================== */
+   html {
+    font-size: 85%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   }
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    -webkit-text-size-adjust: 100%;
+}
+.container,
+header,
+section,
+footer{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* ==========================================
    RESET & GLOBAL STYLES
    ========================================== */
 * {
